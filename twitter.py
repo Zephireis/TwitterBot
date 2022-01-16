@@ -9,7 +9,7 @@ import mysql.connector
 mydb = mysql.connector.connect(host="",
 user="division_",
 passwd="!",
-database="d") #use enviroment variables for security
+database="d") #use environment variables for security
 
 
 auth = tweepy.OAuthHandler("hidden") #use enviroment variables for security
